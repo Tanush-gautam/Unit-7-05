@@ -10,7 +10,7 @@ function mussuem () {
     document.getElementById('results').innerHTML = 'Time for work'
   } else if ((age < 18) && (day === 'Monday' || day === 'Tuesday' || day === 'Wednesday' || day === 'Friday' || day === 'Thursday')) {
     document.getElementById('results').innerHTML = 'Time to go to school'
-  } else { 
+  } else {
     document.getElementById('results').innerHTML = 'Time for the weekend'
   }
 }
